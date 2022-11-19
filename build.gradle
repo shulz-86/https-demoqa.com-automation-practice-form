@@ -11,6 +11,7 @@ tasks.withType(JavaCompile) {
 }
 
 dependencies {
+    implementation 'org.testng:testng:7.6.1'
     testImplementation (
             "com.codeborne:selenide:6.9.0",
             "org.junit.jupiter:junit-jupiter:5.8.2"
@@ -26,7 +27,7 @@ help {
         println ""
         println "************************************************************************ "
         println "***                                                                  *** "
-        println "*** Welcome to https://github.com/qa-guru/demoqa-test-16!            *** "
+        println "*** Welcome to https://demoqa.com/automation-practice-form!          *** "
         println "***                                                                  *** "
         println "*** ./gradlew help                                                   *** "
         println "***                                                                  *** "
