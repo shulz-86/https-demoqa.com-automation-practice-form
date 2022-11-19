@@ -65,12 +65,15 @@ public class TextBoxTests {
          */
         $(".modal-title").shouldBe(Condition.visible);
         $(".table-responsive").shouldHave(
-                text("Max Fenig"),
+                text(firstName +" "+ lastName),
                 text(userEmail),
                 text("31 May,1986"),
                 text("Male"),
                 text(subjectsInput),
-                text(currentAddress));
+                text("Music"),
+                text("6-7-scaled.jpg"),
+                text(currentAddress),
+                text("Haryana Karnal"));
         $("#closeLargeModal").click();
     }
 }
